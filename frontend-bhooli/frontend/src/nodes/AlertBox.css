@@ -1,0 +1,70 @@
+.alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .alert-box {
+   background: linear-gradient(135deg, #a727b8, #5dade2);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    text-align: center;
+    border-color: radial-gradient(circle, rgb(7, 221, 236) 0%, rgb(248, 8, 228) 100%  ) ;
+    color: rgb(252, 250, 250);
+    /*background: rgb(146, 16, 129);*/
+     max-width: 400px;
+    width: 80%;
+    border-image-slice: 1;
+  }
+  
+  .alert-icon {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .check-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .alert-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .alert-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    white-space-collapse: break-spaces;
+  }
+  
+  .alert-button {
+    background: rgb(230, 7, 218);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .alert-button:hover {
+    background: #2c81ba;
+  }
+  
